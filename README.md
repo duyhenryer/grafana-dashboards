@@ -13,3 +13,4 @@ You can also download more on [Grafana.com](https://grafana.com/grafana/dashboar
 | kubernetes-nginx-ingress.json   | Dashboard for Nginx Ingress Controller. |
 | redis-exporter.json             | Dashboard for Redis |
 | slo-detail.json                 | Dashboard for SLO / Detail. |
+| valut.json                 | Dashboard for Vault |
