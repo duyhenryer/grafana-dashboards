@@ -1,7 +1,7 @@
 {
   "__inputs": [
     {
-      "name": "DS_GRAFANACLOUD-PROM",
+      "name": "DS_PROMETHEUS",
       "label": "grafanacloud-prom",
       "description": "",
       "type": "datasource",
@@ -57,7 +57,7 @@
     "list": [
       {
         "builtIn": 1,
-        "datasource": "${DS_GRAFANACLOUD-PROM}",
+        "datasource": "${DS_PROMETHEUS}",
         "enable": true,
         "hide": true,
         "iconColor": "rgba(0, 211, 255, 1)",
@@ -90,7 +90,7 @@
   "liveNow": false,
   "panels": [
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "mappings": [
@@ -188,7 +188,7 @@
       "type": "stat"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "mappings": [],
@@ -254,7 +254,7 @@
       "type": "stat"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -320,7 +320,7 @@
       "type": "table"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -437,7 +437,7 @@
       "type": "table"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -520,7 +520,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -533,7 +533,7 @@
       "type": "row"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -616,7 +616,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -698,7 +698,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -781,7 +781,7 @@
     },
     {
       "collapsed": false,
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "gridPos": {
         "h": 1,
         "w": 24,
@@ -794,7 +794,7 @@
       "type": "row"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "mappings": [],
@@ -849,7 +849,7 @@
       "type": "stat"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -907,7 +907,7 @@
       "type": "piechart"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -966,7 +966,7 @@
       "type": "piechart"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1028,7 +1028,7 @@
       "bars": true,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "decimals": 0,
       "fieldConfig": {
         "defaults": {
@@ -1135,7 +1135,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "decimals": 3,
       "fieldConfig": {
         "defaults": {
@@ -1236,7 +1236,7 @@
       }
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1318,7 +1318,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${DS_GRAFANACLOUD-PROM}",
+      "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1412,7 +1412,7 @@
       {
         "allValue": "",
         "current": {},
-        "datasource": "${DS_GRAFANACLOUD-PROM}",
+        "datasource": "${DS_PROMETHEUS}",
         "definition": "label_values(cluster_id)",
         "description": null,
         "error": null,
@@ -1438,7 +1438,7 @@
       {
         "allValue": null,
         "current": {},
-        "datasource": "${DS_GRAFANACLOUD-PROM}",
+        "datasource": "${DS_PROMETHEUS}",
         "definition": "label_values(vault_runtime_alloc_bytes{cluster_id=\"$cluster\"}, project_id)",
         "description": null,
         "error": null,
